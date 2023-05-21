@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/gecisrengi2">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="13dp"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:text="hesap oluştur.."
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+
+        <RelativeLayout
+            android:id="@+id/panelim"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/sekil2">
+
+            <EditText
+                android:id="@+id/kaydolmail"
+                android:layout_width="260dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:hint=" ******@***.com"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/baseline_account_circle_24">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/kaydolsifre"
+                android:layout_width="260dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:hint=" Şifre"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="78dp"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/baseline_vpn_key_24">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/kaydolsifretekrar"
+                android:layout_width="260dp"
+                android:layout_height="70dp"
+                android:ems="10"
+                android:hint=" Şifre Tekrar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/baseline_vpn_key_24">
+
+            </EditText>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="500dp">
+
+            <Button
+                android:id="@+id/buttonkayityap"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/btnsekil2"
+                android:text="kaydol"
+                android:textColor="@color/white"
+                android:textSize="25sp">
+
+            </Button>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
